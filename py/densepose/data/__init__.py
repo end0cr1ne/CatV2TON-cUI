@@ -22,6 +22,6 @@ from .utils import is_relative_local_path, maybe_prepend_base_path
 from . import datasets
 
 # ensure the bootstrap datasets builders are registered
-from . import build
+# from . import build
 
 __all__ = [k for k in globals().keys() if not k.startswith("_")]
