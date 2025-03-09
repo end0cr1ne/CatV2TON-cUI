@@ -3,8 +3,6 @@ import sys
 import json
 import torch
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 from easyanimate.models.transformer3d import HunyuanTransformer3DModel
 from .attn_processors import AttnProcessor2_0, PlusMixAttnProcessor2_0
 
