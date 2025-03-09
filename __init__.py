@@ -2,7 +2,9 @@ import importlib.util
 import glob
 import os
 import sys
-from .V2TONNode import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+
+NODE_CLASS_MAPPINGS = {}
+NODE_DISPLAY_NAME_MAPPINGS = {}
 
 python = sys.executable
 
