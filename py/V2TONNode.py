@@ -51,9 +51,9 @@ class V2TONNode:
             sys.path.append(modules_path)
             
         # Now import the necessary modules
-        from modules.pipeline import V2TONPipeline
-        from modules.cloth_masker import AutoMasker
-        from modules.densepose import DensePose
+        from .modules.pipeline import V2TONPipeline
+        from .modules.cloth_masker import AutoMasker
+        from .modules.densepose import DensePose
         from diffusers.image_processor import VaeImageProcessor
         
         # Download models from HuggingFace if not available locally
