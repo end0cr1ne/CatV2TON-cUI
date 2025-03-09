@@ -5,6 +5,9 @@ from PIL import Image, ImageFilter
 import torch.nn.functional as F
 from huggingface_hub import snapshot_download
 
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 class V2TONNode:
     """
     ComfyUI custom node for V2TON virtual try-on functionality.
