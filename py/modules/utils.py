@@ -3,7 +3,7 @@ import json
 import torch
 
 from easyanimate.models.transformer3d import HunyuanTransformer3DModel
-from modules.attn_processors import AttnProcessor2_0, PlusMixAttnProcessor2_0
+from .attn_processors import AttnProcessor2_0, PlusMixAttnProcessor2_0
 
 # Set Attention Processor (modified from https://github.com/tencent-ailab/IP-Adapter/blob/main/tutorial_train.py)
 def init_adapter(unet, 

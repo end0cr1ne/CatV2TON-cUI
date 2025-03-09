@@ -7,8 +7,8 @@ from diffusers.image_processor import VaeImageProcessor
 import torch
 from tqdm import tqdm
 
-from modules.SCHP import SCHP  # type: ignore
-from modules.densepose import DensePose, densepose_to_rgb  # type: ignore
+from .SCHP import SCHP  # type: ignore
+from .densepose import DensePose, densepose_to_rgb  # type: ignore
 from data.utils import read_video_frames
 
 

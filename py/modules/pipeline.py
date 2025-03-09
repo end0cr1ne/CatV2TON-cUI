@@ -24,7 +24,7 @@ from easyanimate.pipeline.pipeline_easyanimate_multi_text_encoder import (
     get_2d_rotary_pos_embed,
     get_resize_crop_region_for_grid,
 )
-from modules.posenet import PoseNet
+from .posenet import PoseNet
 from utils import rescale_noise_cfg
 
 
