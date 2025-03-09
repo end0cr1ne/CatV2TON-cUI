@@ -225,5 +225,5 @@ NODE_CLASS_MAPPINGS = {
 
 # Optional: provides categories for organization in the UI
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "V2TONNode": "V2TON Virtual Try-On"
+    "V2TONNode": "CatV2TON Wrapper"
 }
