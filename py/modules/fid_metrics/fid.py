@@ -36,9 +36,9 @@ import torch
 from scipy import linalg
 from torch.nn.functional import adaptive_avg_pool2d
 
-from modules.fid_metrics.inception import InceptionV3
-from modules.fid_metrics.inception3d import InceptionI3d
-from modules.fid_metrics.resnext3d import resnet101
+from .inception import InceptionV3
+from .inception3d import InceptionI3d
+from .resnext3d import resnet101
 
 
 def build_inception(dims):
